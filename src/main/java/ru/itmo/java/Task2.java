@@ -26,7 +26,6 @@ public class Task2 {
      * Даны 2 целых числа. Проверьте равны ли они
      */
     boolean testIfIntsEqual(Integer a, Integer b) {
-
         return a.equals(b);
     }
 
