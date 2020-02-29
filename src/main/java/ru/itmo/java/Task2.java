@@ -56,8 +56,7 @@ public class Task2 {
      * Даны 3 символа. Определите является ли хотя бы один из них цифрой 1..9
      */
     boolean atLeastOneIsDigit(char c1, char c2, char c3) {
-        if (Character.isDigit(c1) || Character.isDigit(c2) || Character.isDigit(c3))
-        {
+        if (Character.isDigit(c1) || Character.isDigit(c2) || Character.isDigit(c3)) {
             return true;
         }
         return false;
@@ -89,12 +88,10 @@ public class Task2 {
      * Дано натуральное число N <= 10000. Выведите следующее после N четное число. Например: N = 8, Result = 10
      */
     int nextEvenNumber(int n) {
-        if (n % 2 == 0)
-        {
+        if (n % 2 == 0) {
             return  n + 2;
         }
-        else
-        {
+        else {
             return n + 1;
         }
     }
