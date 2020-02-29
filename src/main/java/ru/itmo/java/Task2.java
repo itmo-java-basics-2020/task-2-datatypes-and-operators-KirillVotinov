@@ -107,28 +107,22 @@ public class Task2 {
      */
     int schoolDesks(int num1, int num2, int num3) {
         int sum = 0;
-        if (num1 % 2 == 0)
-        {
+        if (num1 % 2 == 0) {
             sum += num1 / 2;
         }
-        else
-        {
+        else {
             sum += (num1 + 1) / 2;
         }
-        if (num2 % 2 == 0)
-        {
+        if (num2 % 2 == 0) {
             sum += num2 / 2;
         }
-        else
-        {
+        else {
             sum += (num2 + 1) / 2;
         }
-        if (num3 % 2 == 0)
-        {
+        if (num3 % 2 == 0) {
             sum += num3 / 2;
         }
-        else
-        {
+        else {
             sum += (num3 + 1) / 2;
         }
         return sum;
